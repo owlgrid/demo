@@ -13,5 +13,7 @@
     "@types/node": "^18.11.10",
     "typescript": "^4.9.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }
