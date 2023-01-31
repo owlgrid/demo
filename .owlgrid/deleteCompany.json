@@ -1,0 +1,17 @@
+{
+    "id": "deleteCompany",
+    "name": "deleteCompany",
+    "description": "Delete an existing company.",
+    "updateDate": "new Date('2022-01-01')",
+    "createDate": "new Date('2022-01-01')",
+    "active": true,
+    "trigger": {
+        "id": "todo",
+        "type": "http",
+        "method": "post",
+        "path": "/deleteCompany"
+    },
+    "author": {
+        "name": "Arthur Lefevre"
+    }
+}

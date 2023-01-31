@@ -1,0 +1,17 @@
+{
+    "id": "addCompany",
+    "name": "addCompany",
+    "description": "Add a new company.",
+    "updateDate": "new Date('2022-01-01')",
+    "createDate": "new Date('2022-01-01')",
+    "active": true,
+    "trigger": {
+        "id": "todo",
+        "type": "http",
+        "method": "post",
+        "path": "/addCompany"
+    },
+    "author": {
+        "name": "Arthur Lefevre"
+    }
+}
