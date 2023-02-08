@@ -1,0 +1,38 @@
+{
+    "id": "helloWorld",
+    "name": "helloWorld",
+    "description": "helloWorld method",
+    "updateDate": "1675797714",
+    "createDate": "1675797714",
+    "active": true,
+    "private": false,
+    "trigger": {
+        "type": "http",
+        "method": "post"
+    },
+    "inputs": [
+        {
+            "name": "login",
+            "type": "string",
+            "description": "Login value",
+            "required": true
+        }
+    ],
+    "outputs": [
+        {
+            "name": "greeting",
+            "type": "object",
+            "description": "String",
+            "required": true
+        }
+    ],
+    "errors": [
+        {
+            "code": "USER_NOT_FOUND",
+            "description": "User not found."
+        }
+    ],
+    "author": {
+        "name": "Arthur Lefevre"
+    }
+}
